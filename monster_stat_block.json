@@ -1,0 +1,456 @@
+{
+  "name": "Monster Statblock",
+  "type": "character",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hidden": [],
+    "header": {
+      "contents": [],
+      "key": "custom_header"
+    },
+    "body": {
+      "contents": [],
+      "key": "custom_body"
+    },
+    "display": {
+      "width": "600",
+      "height": "600",
+      "fix_size": false,
+      "pp_width": "64",
+      "pp_height": "64"
+    },
+    "attributeBar": {},
+    "activeEffects": {},
+    "activeConditionalModifierGroups": [],
+    "template": "ONshA8cjF7McdtYT",
+    "props": {},
+    "templateSystemUniqueVersion": 2266642505
+  },
+  "prototypeToken": {
+    "name": "Monster Statblock",
+    "displayName": 50,
+    "actorLink": false,
+    "appendNumber": true,
+    "prependAdjective": false,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0,
+      "tint": null
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 50,
+    "bar1": {
+      "attribute": "custom"
+    },
+    "bar2": {
+      "attribute": "custom"
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      },
+      "color": null
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0,
+      "color": null
+    },
+    "detectionModes": [],
+    "flags": {
+      "image-hover": {
+        "hideArt": false,
+        "specificArt": "path/image.png"
+      },
+      "barbrawl": {
+        "resourceBars": {
+          "bar1": {
+            "order": 0,
+            "id": "bar1",
+            "attribute": "custom",
+            "value": 10,
+            "max": 10,
+            "mincolor": "#FF0000",
+            "maxcolor": "#80FF00",
+            "position": "bottom-outer",
+            "otherVisibility": 50,
+            "ownerVisibility": 50,
+            "gmVisibility": -1,
+            "hideFull": false,
+            "hideEmpty": false,
+            "hideCombat": false,
+            "hideNoCombat": false,
+            "indentLeft": null,
+            "indentRight": null,
+            "shareHeight": false,
+            "style": "user",
+            "label": "",
+            "ignoreMin": false,
+            "ignoreMax": false,
+            "invert": false,
+            "invertDirection": false,
+            "subdivisions": null,
+            "subdivisionsOwner": false,
+            "fgImage": "",
+            "bgImage": "",
+            "opacity": null
+          },
+          "bar2": {
+            "order": 3,
+            "id": "bar2",
+            "attribute": "custom",
+            "value": 10,
+            "max": 10,
+            "mincolor": "#000080",
+            "maxcolor": "#80B3FF",
+            "position": "top-outer",
+            "otherVisibility": 50,
+            "ownerVisibility": 50,
+            "gmVisibility": -1,
+            "hideFull": false,
+            "hideEmpty": false,
+            "hideCombat": false,
+            "hideNoCombat": false,
+            "indentLeft": null,
+            "indentRight": null,
+            "shareHeight": false,
+            "style": "user",
+            "label": "",
+            "ignoreMin": false,
+            "ignoreMax": false,
+            "invert": false,
+            "invertDirection": false,
+            "subdivisions": null,
+            "subdivisionsOwner": false,
+            "fgImage": "",
+            "bgImage": "",
+            "opacity": null
+          },
+          "bar3": {
+            "order": 1,
+            "id": "bar3",
+            "attribute": "custom",
+            "value": 10,
+            "max": 10,
+            "mincolor": "#FF0000",
+            "maxcolor": "#80FF00",
+            "position": "bottom-outer",
+            "otherVisibility": 50,
+            "ownerVisibility": 50,
+            "gmVisibility": -1,
+            "hideFull": false,
+            "hideEmpty": false,
+            "hideCombat": false,
+            "hideNoCombat": false,
+            "indentLeft": null,
+            "indentRight": null,
+            "shareHeight": false,
+            "style": "user",
+            "label": "",
+            "ignoreMin": false,
+            "ignoreMax": false,
+            "invert": false,
+            "invertDirection": false,
+            "subdivisions": null,
+            "subdivisionsOwner": false,
+            "fgImage": "",
+            "bgImage": "",
+            "opacity": null
+          },
+          "bar4": {
+            "order": 2,
+            "id": "bar4",
+            "attribute": "custom",
+            "value": 10,
+            "max": 10,
+            "mincolor": "#FF0000",
+            "maxcolor": "#80FF00",
+            "position": "bottom-outer",
+            "otherVisibility": 50,
+            "ownerVisibility": 50,
+            "gmVisibility": -1,
+            "hideFull": false,
+            "hideEmpty": false,
+            "hideCombat": false,
+            "hideNoCombat": false,
+            "indentLeft": null,
+            "indentRight": null,
+            "shareHeight": false,
+            "style": "user",
+            "label": "",
+            "ignoreMin": false,
+            "ignoreMax": false,
+            "invert": false,
+            "invertDirection": false,
+            "subdivisions": null,
+            "subdivisionsOwner": false,
+            "fgImage": "",
+            "bgImage": "",
+            "opacity": null
+          },
+          "bar5": {
+            "order": 4,
+            "id": "bar5",
+            "attribute": "custom",
+            "value": 10,
+            "max": 10,
+            "mincolor": "#000080",
+            "maxcolor": "#80B3FF",
+            "position": "top-outer",
+            "otherVisibility": 50,
+            "ownerVisibility": 50,
+            "gmVisibility": -1,
+            "hideFull": false,
+            "hideEmpty": false,
+            "hideCombat": false,
+            "hideNoCombat": false,
+            "indentLeft": null,
+            "indentRight": null,
+            "shareHeight": false,
+            "style": "user",
+            "label": "",
+            "ignoreMin": false,
+            "ignoreMax": false,
+            "invert": false,
+            "invertDirection": false,
+            "subdivisions": null,
+            "subdivisionsOwner": false,
+            "fgImage": "",
+            "bgImage": "",
+            "opacity": null
+          },
+          "bar6": {
+            "order": 5,
+            "id": "bar6",
+            "attribute": "custom",
+            "value": 10,
+            "max": 10,
+            "mincolor": "#000080",
+            "maxcolor": "#80B3FF",
+            "position": "top-outer",
+            "otherVisibility": 50,
+            "ownerVisibility": 50,
+            "gmVisibility": -1,
+            "hideFull": false,
+            "hideEmpty": false,
+            "hideCombat": false,
+            "hideNoCombat": false,
+            "indentLeft": null,
+            "indentRight": null,
+            "shareHeight": false,
+            "style": "user",
+            "label": "",
+            "ignoreMin": false,
+            "ignoreMax": false,
+            "invert": false,
+            "invertDirection": false,
+            "subdivisions": null,
+            "subdivisionsOwner": false,
+            "fgImage": "",
+            "bgImage": "",
+            "opacity": null
+          }
+        }
+      }
+    },
+    "randomImg": false
+  },
+  "items": [],
+  "effects": [],
+  "flags": {
+    "custom-system-builder": {
+      "version": "3.0.0"
+    },
+    "core": {
+      "sheetClass": "pdf-pager.PDFActorSheet"
+    },
+    "pdf-pager": {
+      "customPDF": "worlds/YOUR-WORLD-HERE/pdfs/SWMonsters.pdf",
+      "fieldText": {
+        "Pg1 Name": {
+          "0": "Monster Name"
+        },
+        "Pg1 Level": {
+          "0": "Monster Level #"
+        },
+        "Pg1 Type": {
+          "0": "Monster Type"
+        },
+        "Pg1 Intelligence": {
+          "0": "Monster's Intelligence"
+        },
+        "Pg1 Rep/Weak": {
+          "0": "Reputation/Weak Point #s"
+        },
+        "Pg1 Perception": {
+          "0": "Monster's Perception"
+        },
+        "Pg1 Soulscars": {
+          "0": "Monster's Soulscars"
+        },
+        "Pg1 Disposition": {
+          "0": "Monster's Disposition"
+        },
+        "Pg1 Language": {
+          "0": "Monster's Languages"
+        },
+        "Pg1 Weak Point": {
+          "0": "Monster's Weak Point"
+        },
+        "Pg1 Habitat": {
+          "0": "Monster's Habitat"
+        },
+        "Pg1 Movement": {
+          "0": "Monster Movement"
+        },
+        "Pg1 Initiative": {
+          "0": "Monster's Initiative #"
+        },
+        "Pg1 Fortitude": {
+          "0": "Monster's Fortitude #"
+        },
+        "Pg1 Willpower": {
+          "0": "Monster's Willpower #"
+        },
+        "Pg1 Sections": {
+          "0": ""
+        },
+        "Pg1 Main Section": {
+          "0": ""
+        },
+        "Pg1 FStyle": {
+          "0": {
+            "0": ""
+          },
+          "1": {
+            "0": ""
+          },
+          "2": {
+            "0": ""
+          }
+        },
+        "Pg1 CurHP": {
+          "0": ""
+        },
+        "Pg1 Accuracy": {
+          "0": {
+            "0": ""
+          },
+          "1": {
+            "0": ""
+          },
+          "2": {
+            "0": ""
+          }
+        },
+        "Pg1 Damage": {
+          "0": {
+            "0": ""
+          },
+          "1": {
+            "0": ""
+          },
+          "2": {
+            "0": ""
+          }
+        },
+        "Pg1 Evasion": {
+          "0": {
+            "0": ""
+          },
+          "1": {
+            "0": ""
+          },
+          "2": {
+            "0": ""
+          }
+        },
+        "Pg1 Defense": {
+          "0": {
+            "0": ""
+          },
+          "1": {
+            "0": ""
+          },
+          "2": {
+            "0": ""
+          }
+        },
+        "Pg1 HP": {
+          "0": {
+            "0": ""
+          },
+          "1": {
+            "0": ""
+          },
+          "2": {
+            "0": ""
+          }
+        },
+        "Pg1 MP": {
+          "0": {
+            "0": ""
+          },
+          "1": {
+            "0": ""
+          },
+          "2": {
+            "0": ""
+          }
+        },
+        "Pg1 CurMP": {
+          "0": ""
+        },
+        "Pg1 Status": {
+          "0": ""
+        },
+        "textarea_1pmwa": "",
+        "Pg1 UniqueSkills": {
+          "0": ""
+        }
+      },
+      "windowSize": {
+        "width": 1123,
+        "height": 1003
+      }
+    },
+    "exportSource": {
+      "system": "custom-system-builder"
+    }
+  },
+  "_stats": {
+    "systemId": "custom-system-builder"
+  }
+}
