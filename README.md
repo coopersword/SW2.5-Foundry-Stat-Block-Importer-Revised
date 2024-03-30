@@ -38,7 +38,7 @@ Open `monster_stat_block.json` and navigate to the following section of the JSON
 ```
 Replace "YOUR-WORLD-HERE" with the name of your world's folder.
 
-Run the script using Node.js
+Run the script using [Node.js](https://nodejs.org/en/download)
 
 ```sh
 $ node convertStatBlocks.js
