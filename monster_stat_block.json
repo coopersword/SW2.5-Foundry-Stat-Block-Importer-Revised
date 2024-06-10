@@ -1,6 +1,6 @@
 {
   "name": "Monster Statblock",
-  "type": "character",
+  "type": "monster",
   "img": "icons/svg/mystery-man.svg",
   "system": {
     "hidden": [],
@@ -297,7 +297,7 @@
       "sheetClass": "pdf-pager.PDFActorSheet"
     },
     "pdf-pager": {
-      "customPDF": "worlds/YOUR-WORLD-HERE/pdfs/SWMonsters.pdf",
+      "customPDF": "worlds/rswa/pdfs/SWMonsters.pdf",
       "fieldText": {
         "Pg1 Name": {
           "0": "Monster Name"

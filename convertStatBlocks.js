@@ -122,7 +122,36 @@ function replaceFlagText(statBlock, monsterData) {
   flags.fieldText['textarea_1pmwa'] = lootTableText;
 
   // Replace name outside pdf-pager flag with monster name
+  //Coopersword's edit: Changed this part of the method to upload the api details to the foundry actors. You will need to modify line 2 of monster_stat_block.json to "monster" instead of "character".
+  let allTheLoot = "";
   statBlock.name = monsterData.monstername || 'Monster Statblock';
+  statBlock.system.monlevel = monsterData.level || 'Monster level';
+  statBlock.system.type = monsterData.monstertype || 'Monster type';
+  statBlock.system.intelligence = monsterData.intelligence ||'Monster intelligence';
+  statBlock.system.perception = monsterData.perception || 'monster perception';
+  statBlock.system.reaction = monsterData.disposition || 'monster disposition';
+  statBlock.system.impurity = monsterData.soulscars || 'monster soulscars';
+  statBlock.system.language = monsterData.language || 'monster languages';
+  statBlock.system.hpbase = monsterData.combatstyles[0]?.hp || 0;
+  statBlock.system.mpbase = monsterData.combatstyles[0]?.mp || 0;
+  statBlock.system.ppbase = monsterData.combatstyles[0]?.defense || 0;
+  statBlock.system.overview = "Has a Willpower of "+monsterData.willpower+", an Evasion of "+monsterData.combatstyles[0]?.evasion+", and a Fortitude of "+monsterData.fortitude+".<br> Attacks with "+monsterData.combatstyles[0]?.style+" with accuracy "+monsterData.combatstyles[0]?.accuracy+" for "+monsterData.combatstyles[0]?.damage+". <br> Creature can be found in "+monsterData.source;
+  statBlock.system.biography = monsterData.description || "monster description";
+  statBlock.system.habitat = monsterData.habitat || 'monster habitat';
+  statBlock.system.popularity = monsterData.reputation || 'monster reputation';
+  statBlock.system.weakpoint = monsterData.weakness ||'monster weakness';
+  statBlock.system.weakness = monsterData.weakpoint || "monster weakpoint"; //Coopersword: I know this looks wrong, but foundry and the api have these flipped. It has to be like this to work right.
+  statBlock.system.preemptive = monsterData.initiative || 'monster initiative';
+  statBlock.system.move = monsterData.movementspeed+"m" || 'movement speed in meters';
+  statBlock.system.part = monsterData.sections || 'No extra sections';
+  statBlock.system.corepart = monsterData.mainsection || 'No extra sections';
+
+  //currently does not function
+  for (var i = 0; i < monsterData.loottable.length; i++){
+    allTheLoot = allTheLoot.concat(monsterData.loottable[i]?.roll, " - ", monsterData.loottable[i]?.loot, "<br>");
+  }
+  statBlock.system.loot = allTheLoot;
+  // statBlock.system.biography.concat(allTheLoot);
 
   // Replace token name outside pdf-pager flag with monster name
   statBlock.prototypeToken.name = monsterData.monstername || 'Monster Statblock';
